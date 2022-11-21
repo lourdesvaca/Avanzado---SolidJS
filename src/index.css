@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main{
+  box-sizing: border-box;
+  width: 100%;
+  background-image: url("img/snack.jpg");
+  /*opacity: 0.5;*/
+}
+
+h1{
+  text-align: center;
+}
+
+legend{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form{
+  width: 500px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.botones-crud{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn{
+  width: 150px;
+  margin: 5px;
+  font-weight: 100px;
+}
+
+.tabla-registro{
+  text-align: center;
+}
+
+
+.btn-modificar-dato, .btn-eliminar-dato{
+  width: 0px;
+  height: 0px;
+}
+
+/*Id de JS*/
+#btn-edit, #btn-delete{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
